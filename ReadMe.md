@@ -10,3 +10,9 @@ timeOut = 10000
 ```
 serviceuri = localhost:9090
 ```
+
+#### We can build and run application with following commands. 
+```
+mvn clean package
+java -jar target/rest-1.0.jar
+```
